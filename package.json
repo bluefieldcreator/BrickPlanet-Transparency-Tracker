@@ -1,0 +1,28 @@
+{
+  "name": "are-we-transparent-yet",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "package": "svelte-kit package",
+    "run": "svelte-kit build && svelte-kit run",
+    "preview": "svelte-kit preview",
+    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. .",
+    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "prettier": "^2.4.1",
+    "prettier-plugin-svelte": "^2.4.0",
+    "svelte": "^3.44.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@sveltejs/adapter-netlify": "^1.0.0-next.36",
+    "@zerodevx/svelte-toast": "^0.6.2",
+    "gun": "^0.2020.1235",
+    "svelte2tsx": "^0.4.12",
+    "typescript": "^4.5.4"
+  }
+}
